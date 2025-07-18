@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import nltk
 
+nltk.download('punkt_tab')
 # Use Streamlit's page navigation with radio buttons
 # page = st.sidebar.radio("Select Projects", ["ASCII Value Checker", "ABC"])
 
